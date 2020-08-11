@@ -166,10 +166,6 @@ select:hover{
     justify-content: center;
     padding-bottom: 80px;
 }
-.block img:hover{
-    background-color: rgb(233, 184, 92);
-    border-radius: 5px;
-}
 .block-icon{
     background-color: white;
     border-radius: 50%;
