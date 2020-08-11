@@ -73,7 +73,6 @@
 }
 .main-heading{
     background-image: url(images/beach.jpg);
-    height: 50vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -111,6 +110,7 @@ select:hover{
 }
 .menu{
     display: flex;
+     padding-bottom: 250px;
 }
 .special-left{
     border-top-left-radius: 25px;
