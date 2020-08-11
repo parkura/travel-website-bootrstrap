@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.top-header{
+    background-color: rgb(25, 25, 80);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.location-search{
+   text-align: end;
+}
+.search__button{
+    padding-left:5px;
+    padding-right: 5px; 
+    border-radius: 4px;
+    border: none; 
+    position: relative;
+    right: 25px;
+} 
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.location-search input{
+    padding-left:10px;
+    margin-left: 5px;
+    border-radius: 2px;
+    border: none;
+    outline:0.5px solid white;
+}
+.location-search{
+    text-transform: uppercase;
+}
+.tel-number{
+    color: rgb(204, 84, 41);
+}
+.fa-map-marker{
+    color: rgb(204, 84, 41);
+    padding-right: 7px;
+}
+.find-us{
+    font-size: 0.8rem;
+    margin-left: 3px;
+    color: rgb(243, 242, 242);
+}
+.tel__number{
+    font-size: 1.2rem;
+}
+.logo span:hover, .find-us:hover, .tel-number:hover{
+    color: orange;
+    text-decoration: none;
+}
+.navbar-nav{
+    position: relative;
+    right: 25px;
+}
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+}
+.collapse ul li a{
+    font-size: 0.9rem;
+    
+}
+.nav-link:hover{
+    background-color: rgb(236, 156, 6);
+    border-radius: 5px;
+}
+.main-heading{
+    background-image: url(images/beach.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    align-items: center;
+    padding-top: 15vh;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.heading span{
+    display: block; 
+    margin: 5px 0; 
+    font-size: 3rem;
+}
+.heading h1{
+    font-size: 1.5rem;
+}
+select{
+    width: 100%;
+    text-transform: uppercase;
+    height:55px;
+    padding-left: 20px;
+    border: 0.5px solid lightgray;
+    outline: none;
+}
+select:hover{
+    background-color:lightgray ;
+}
+.special-right:hover{
+    background-color: rgb(238, 159, 12);
+}
+.menu{
+    display: flex;
+}
+.special-left{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.special-right{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(238, 159, 12);
+    color: white;
+}
+.section-heading{
+    text-align: center;
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.best-offers{
+    margin-top: 50px;
+}
+.card{
+  padding-top: 20px;
+  border: none;
+ border-radius: 5px;
+}
+.card-link{
+    text-transform: uppercase;
+    color: rgb(27, 23, 23);
+    font-weight: 600;
+}
+.card-link-price{
+    float: right;
+}
+.card-body a:hover{
+   color: rgb(255, 166, 0);
+   border-radius:2px;
+}
+.card:hover{
+    padding-top: 0;
+}
+.why-choose-us{
+    background-image: url(images/why-choose-us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.block img:hover{
+    background-color: rgb(233, 184, 92);
+    border-radius: 5px;
+}
+.block-icon{
+    background-color: white;
+    border-radius: 50%;
+    margin: -10px 120px 20px 120px;
+    padding-bottom: 30px;
+ }
+.margin-class{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.block-body{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.block-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.block-text{
+    color: lightgray;
+}
+.color-class{
+    color: black;
+    padding-bottom: 30px;
+}
+.user-block{
+    text-align: center;
+    padding: 10px;
+}
+.user-name{
+    text-transform: uppercase;
+    color: orange;
+    font-weight: 600;
+}
+.user-block img{
+    padding-bottom: 15px;
+}
+.testimonails{
+    padding-bottom: 80px;
+}
+.main-footer{
+    background-color: rgb(2, 49, 103);
+    color: white;
+}
+.footer-container{
+   text-align: center;
+   padding-top: 30px;
+}
+.breadcrumb-container{
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
+ul.breadcrumbe {
+    padding: 10px 16px;
+    list-style: none;
+}
+ul.breadcrumbe li {
+    display: inline;
+    font-size: 18px;
+}
+ul.breadcrumbe li+li:before {
+    padding: 8px;
+    color: white;
+    content: "|\00a0";
+}
+ul.breadcrumbe li a {
+    color: white;
+    text-decoration: none;
+}
+ul.breadcrumbe li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+ul.breadcrumbe li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.soc-media{
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
+.fa-twitter{
+  background-color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px 2px;
+  border-radius: 50%;
+  color:rgb(2, 49, 103) ;
+  font-weight: bold;
+}
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+.fa-facebook{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+@media only screen and (max-width: 992px) {
+    .navbar-nav{
+        margin-left: 0;
+    }
+    .location-search, .logo{
+        text-align: center;
+     }
+     .navbar-nav{
+        position: relative;
+        right: 0;
+    }
+  }
+  @media only screen and (max-width: 559px) {
+    .menu{
+        flex-wrap: wrap;
+    }
+    select{
+        border-radius: 25px;
+    }
+  }
+  @media only screen and (max-width: 391px) {
+    .heading span{ 
+        font-size: 2.3rem;
+    }
+  }
+@media only screen and (max-width: 334px) {
+    .search--button{
+        position: fixed;
+    } 
+  }
+
+
+
+
